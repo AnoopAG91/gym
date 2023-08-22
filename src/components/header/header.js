@@ -10,7 +10,7 @@ function Header() {
         <div className='logo'>
             <button onClick={()=>navigate('/')}>Logo</button>
         </div>
-        <div className='menu'>
+        <div className='menu mob-menu'>
             <button onClick={()=>navigate('/')}>Home</button>
             <button onClick={()=>navigate('/about')}>About</button>
             <button onClick={()=>navigate('/classes')}>Classes</button>
